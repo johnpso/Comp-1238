@@ -12,3 +12,7 @@ SELECT status, due_date
 FROM assignments
 GROUP BY status;
 
+SELECT course_name 
+FROM courses 
+ORDER BY (course_name) 
+DESC LIMIT 10;
